@@ -1,4 +1,5 @@
 (() => {
+  // Keeps the original hero interactions in the static GitHub Pages build.
   const setup = () => {
     const heading = document.querySelector(".hero-name");
     const letters = Array.from(document.querySelectorAll(".name-letter"));
